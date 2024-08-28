@@ -3,7 +3,7 @@ package com.example.myfirstproject;
 public class DongulerSinirDegerOrnekleri {
     public static void main(String args[]) {
 
-        // ORN1: 3 ile 6 arasında döngü
+        // ORN1: 3 ile 6 arasında döngü 3 - 4 - 5 - 6
 
         for (int a=3; a<7; a++ ){
             System.out.println("a değeri : " +a);
@@ -17,7 +17,7 @@ public class DongulerSinirDegerOrnekleri {
 
         // ORN2: 0-8 çift sayılar
 
-        for (int c = 0; c<10; c+=2){
+        for (int c = 0; c<10; c+=2){ // c+=2 --> c = c+2
             System.out.println("c değeri : " +c);
         }
 
